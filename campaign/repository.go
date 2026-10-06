@@ -9,7 +9,7 @@ type Repository interface {
 	Save(campaign Campaign) (Campaign, error)
 	Update(campaign Campaign) (Campaign, error)
 
-	CreateImage(campaignImage CampaignImage) (CampaignImage, error)
+	 CreateImage(campaignImage CampaignImage) (CampaignImage, error)
 	MarkAllImagesAsNonPrimary(campaignID int) (bool, error)
 }
 
